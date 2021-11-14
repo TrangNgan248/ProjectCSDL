@@ -1,4 +1,4 @@
-{{--trang nay la template cua laravel nen ke no di--}}
+{{--trang nay +a template cua laravel nen ke no di--}}
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
