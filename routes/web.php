@@ -30,6 +30,10 @@ Route::prefix("web-api")->group($routePublic);
 
 //public route
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('/profile/{user}', [UserController::class, 'show']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

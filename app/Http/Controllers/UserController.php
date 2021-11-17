@@ -10,4 +10,8 @@ class UserController extends Controller
     {
         return view('profile', ['user' => $user]);
     }
+
+    public function username(){
+        return 'User_accounts';
+    }
 }

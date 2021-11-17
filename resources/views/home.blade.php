@@ -49,9 +49,9 @@
 <!-- @section('content')
 @endsection -->
  <!-- LOADER -->
-    <!-- <div id="preloader">
+    <div id="preloader">
         <img class="preloader" src="../images/loader.gif" alt="">
-    </div> -->
+    </div>
     <!-- end loader -->
     <!-- END LOADER -->
 
@@ -88,7 +88,7 @@
                                 <li class="list-inline-item"><a href="blog-category-01.blade.php"><i class="fa fa-star"></i> Trends</a></li>
                                 <li class="list-inline-item"><a href="blog-category-02.html"><i class="fa fa-bolt"></i> Hot Topics</a></li>
                                 <li class="list-inline-item"><a href="page-contact.html"><i class="fa fa-user-circle-o"></i> Write for us</a></li>
-                                <li class="list-inline-item"><a href="page-contact.html"><i class="fa fa-user"></i> Login </a></li>
+                                <li class="list-inline-item"><a href="{{ route('login') }}"><i class="fa fa-user"></i> Login </a></li>
                             </ul><!-- end ul -->
                         </div><!-- end topmenu -->
                     </div><!-- end col -->
