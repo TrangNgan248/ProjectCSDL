@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,14 +46,13 @@
 
 </head>
 <body>
-@yield('content')
     <!-- LOADER -->
     <!-- <div id="preloader">
         <img class="preloader" src="../images/loader.gif" alt="">
     </div> -->
     <!-- end loader -->
     <!-- END LOADER -->
-
+    @yield('header')
     <div id="wrapper">
         <div class="collapse top-search" id="collapseExample">
             <div class="card card-block">
@@ -509,5 +510,8 @@
                 </nav>
             </div><!-- end container -->
         </header><!-- end header -->
-</head>
+
+        
+</body>
+</html>
         
