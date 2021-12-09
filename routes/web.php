@@ -32,6 +32,9 @@ Route::prefix("web-api")->group($routePublic);
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/post', function () {
+    return view('post');
+});
 Route::get('/profile/{user}', [UserController::class, 'show']);
 
 Auth::routes();

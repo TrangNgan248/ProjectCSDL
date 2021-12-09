@@ -1,5 +1,5 @@
 
-<!D lang="en">
+<html lang="en">
 <head>
 
     <!-- Basic -->
@@ -45,8 +45,9 @@
 
 </head>
 <body>
-<!-- @section('content')
-@endsection -->
+{{-- <!-- @section('content')
+@endsection --> --}}
+@yield('content')
  <!-- LOADER -->
     <div id="preloader">
         <img class="preloader" src="../images/loader.gif" alt="">
@@ -73,7 +74,6 @@
                         <div class="topsocial" style="width:auto">
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
                         </div><!-- end social -->
                     </div><!-- end col -->
@@ -90,7 +90,7 @@
                         </div><!-- end topmenu -->
                     </div><!-- end col -->
 
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 justify-content-center" style="display: flex; flex-direction:column;" >
+                    <div class="col-lg-2 col-md-10 col-sm-10 col-xs-12 justify-content-center" style="display: flex; flex-direction:column;" >
                         <div class="topsearch text-right ">
                             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-search"></i> Search</a>
                         </div><!-- end search -->
@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="logo">
-                            <a href="/"><img src="../images/logo.png" alt=""></a>
+                            {{-- <a href="/"><img src="../images/logo.png" alt=""></a> --}}
                         </div><!-- end logo -->
                     </div>
                 </div><!-- end row -->
@@ -315,7 +315,7 @@
                                 <div class="shadow-desc">
                                     <div class="blog-meta">
                                         <span class="bg-aqua"><a href="" title="">Lifestyle</a></span>
-                                        <h4><a href="" title="">The golden rules you need to know for a positive life</a></h4>
+                                        <h4><a href="/post" title="">The golden rules you need to know for a positive life</a></h4>
                                         <small><a href="" title="">24 July, 2017</a></small>
                                         <small><a href="blog-" title="">by Amanda</a></small>
                                     </div><!-- end meta -->
@@ -950,7 +950,7 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/custom.js"></script>
 
-</b>
+</body>
 
 <!-- // {{--Code giao dien trang chu--}}
 // {{--Banner--}}

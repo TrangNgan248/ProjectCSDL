@@ -1047,12 +1047,16 @@ div.tab button:hover {
 }
 
 .pp {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
 }
 
 .pp .float-left {
-    margin: 0 2rem 1rem -3rem;
+    padding-right: 1rem;
+}
+
+.pp img.float-left {
+    width: 50%;
 }
 
 .pp a {
