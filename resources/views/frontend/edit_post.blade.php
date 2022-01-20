@@ -56,7 +56,7 @@
                     console.log($('#ckeditor').val());
                     axios.put('/web-api/blog/' + blog_id, {
                         blog_heading: $('#heading').val(),
-                        blog_content: $('#ckeditor1').val(),
+                        blog_content: $('#ckeditor').val(),
                         cat_id: $('#category').val(),
                         description: $('#description').val(),
                         blog_display: $("#picture").val(),

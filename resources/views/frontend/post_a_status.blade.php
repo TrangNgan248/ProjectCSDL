@@ -51,6 +51,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
+        CKEDITOR.replace('ckeditor1');
     function submit_form(event) {
                     event.preventDefault();
                     axios.post('/web-api/blog', {
